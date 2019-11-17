@@ -1,5 +1,5 @@
 # Segment Local Search Framework
-We will introduce the proposed framework, segmented local search.
+We will introduce the proposed framework, segmented local search. 
 
 ## Segmented Local Search Framework
 In TSP, the running time of many local search algorithms increases as the number of cities
@@ -7,10 +7,10 @@ grows. Therefore, the large scale TSP instance takes a long time to obtain good 
 quality. Therefore, we want to address the issue in terms of the neighborhood size of local
 search. In order to achieve the goal, we propose a segmented local search framework to
 narrow down the neighborhood size of local search. The main idea is to optimize the
-fragments of tour instead of the whole tour. In this study, we adopt best 2-opt and LKH
+fragments of tour instead of the whole tour. **In this study, we adopt best 2-opt and LKH
 as the local search in the proposed framework, which is seg2opt, and segLKH respectively.
 This framework can significantly increase the convergence speed and also maintain the
-solution quality.
+solution quality.**
 
 ### Tour Segmentation
 A tour ***T*** will be randomly cut into several segments, which is also called sub-tours. 
