@@ -1,0 +1,1 @@
+2opt_GPU為seg2opt_GPU執行時把initial segment length改為大於N即可
